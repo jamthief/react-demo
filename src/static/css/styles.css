@@ -1,0 +1,23 @@
+.app-container {
+	font-family: "Helvetica";
+	width: 800px;
+	margin: 0 auto;
+} 
+
+.recipe {
+	margin   : .5em;
+	overflow : hidden;
+}
+.recipe img.thumb {
+	float      : left;
+	clear      : both;
+}
+.recipe > .metaPanel {
+	color        : black;
+	float        : left;
+	margin-left  : .5em;
+}
+.recipe > .metaPanel h3 {
+	margin-top    : .8em;
+	margin-bottom : .5em;
+}
